@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user i should be able to make API call for pets status from petsstore","User calls webservice to find pet status","SUCCESS","2019-11-14T10:33:06.661693Z[Europe/London]","0.0","44.27"
+"As a user i should be able to search for given word in wikipedia and same time i can view result in different language","Search for given word in Wikipedia","SUCCESS","2019-11-14T10:33:50.94665Z[Europe/London]","0.0","20.85"

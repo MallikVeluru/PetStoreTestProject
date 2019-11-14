@@ -1,2 +1,1 @@
-# PetsStore
-PetsStoreUI and API tests
+# HomeWorkExtercise

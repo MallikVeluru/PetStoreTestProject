@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TEST.net.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Jyothis-Air" time="0.0">
+  <properties/>
+  <system-out><![CDATA[10:33:06.337 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+?[0m
+10:33:06.351 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: As a user i should be able to make API call for pets status from petsstore
+10:33:06.407 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: As a user i should be able to search for given word in wikipedia and same time i can view result in different language
+10:33:50.931 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:33:50.937 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: User calls webservice to find pet status
+----------------------------------------------------------------------------?[0m
+10:34:03.658 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:03.840 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Search for given word in Wikipedia
+----------------------------------------------------------------------------?[0m
+10:34:11.696 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:11.801 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Search for given word in Wikipedia
+----------------------------------------------------------------------------?[0m
+Feature: As a user i should be able to make API call for pets status from petsstore
+
+  Scenario Outline: User calls webservice to find pet status ?[90m# src/test/resources/features/HomeWorkAPI.feature:3?[0m
+    ?[36mGiven the user checks for pet store?[0m
+    ?[36mWhen the user request to find the '<Pets_status>'?[0m
+    ?[36mThen the user validate '<Number>' of '<Pets_status>' and '<Pet_name>'?[0m
+
+    Examples: 
+
+  Scenario Outline: User calls webservice to find pet status  ?[90m# src/test/resources/features/HomeWorkAPI.feature:9?[0m
+    ?[32mGiven ?[0m?[32mthe user checks for pet store?[0m                       ?[90m# TestSteps.the_User_Checks_For_Pet_store()?[0m
+    ?[32mWhen ?[0m?[32mthe user request to find the ?[0m?[32m?[1m'available'?[0m             ?[90m# TestSteps.the_User_Request_To_Find_The_Pets_Status(String)?[0m
+    ?[32mThen ?[0m?[32mthe user validate ?[0m?[32m?[1m'3059'?[0m?[32m of ?[0m?[32m?[1m'available'?[0m?[32m and ?[0m?[32m?[1m'doggie'?[0m ?[90m# TestSteps.the_User_Validate_Number_Of_Pets_status_And_Pet_name(String,String,String)?[0m
+
+Feature: As a user i should be able to search for given word in wikipedia and same time i can view result in different language
+
+  Scenario Outline: Search for given word in Wikipedia ?[90m# src/test/resources/features/HomeWorkUI.feature:3?[0m
+    ?[36mGiven the user navigated to wikipedia?[0m
+    ?[36mWhen the user search for a '<Given_word>' in english?[0m
+    ?[36mThen the user validate '<Given_word>' in search result?[0m
+    ?[36mAnd the user change to '<Other_language>' and validate '<Give_word_in_other_language>'?[0m
+
+    Examples: 
+
+  Scenario Outline: Search for given word in Wikipedia           ?[90m# src/test/resources/features/HomeWorkUI.feature:10?[0m
+    ?[32mGiven ?[0m?[32mthe user navigated to wikipedia?[0m                        ?[90m# TestSteps.the_user_navigated_to_wikipedia()?[0m
+    ?[32mWhen ?[0m?[32mthe user search for a ?[0m?[32m?[1m'Apple'?[0m?[32m in english?[0m                ?[90m# TestSteps.the_user_search_for_a_given_word_in_english(String)?[0m
+    ?[32mThen ?[0m?[32mthe user validate ?[0m?[32m?[1m'Apple'?[0m?[32m in search result?[0m              ?[90m# TestSteps.the_user_validate_given_word_in_search_result(String)?[0m
+    ?[32mAnd ?[0m?[32mthe user change to ?[0m?[32m?[1m'Welsh (Cymraeg)'?[0m?[32m and validate ?[0m?[32m?[1m'Afal'?[0m ?[90m# TestSteps.the_User_Change_To_Other_language_And_Validate(String,String)?[0m
+
+  Scenario Outline: Search for given word in Wikipedia             ?[90m# src/test/resources/features/HomeWorkUI.feature:11?[0m
+    ?[32mGiven ?[0m?[32mthe user navigated to wikipedia?[0m                          ?[90m# TestSteps.the_user_navigated_to_wikipedia()?[0m
+    ?[32mWhen ?[0m?[32mthe user search for a ?[0m?[32m?[1m'Rose'?[0m?[32m in english?[0m                   ?[90m# TestSteps.the_user_search_for_a_given_word_in_english(String)?[0m
+    ?[32mThen ?[0m?[32mthe user validate ?[0m?[32m?[1m'Rose'?[0m?[32m in search result?[0m                 ?[90m# TestSteps.the_user_validate_given_word_in_search_result(String)?[0m
+    ?[32mAnd ?[0m?[32mthe user change to ?[0m?[32m?[1m'Welsh (Cymraeg)'?[0m?[32m and validate ?[0m?[32m?[1m'Rhosyn'?[0m ?[90m# TestSteps.the_User_Change_To_Other_language_And_Validate(String,String)?[0m
+
+3 Scenarios (?[32m3 passed?[0m)
+11 Steps (?[32m11 passed?[0m)
+1m5.699s
+
+10:34:12.277 [pool-2-thread-2] INFO  n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: src/test/resources/features
+10:34:12.277 [pool-2-thread-1] INFO  n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: src/test/resources/features
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

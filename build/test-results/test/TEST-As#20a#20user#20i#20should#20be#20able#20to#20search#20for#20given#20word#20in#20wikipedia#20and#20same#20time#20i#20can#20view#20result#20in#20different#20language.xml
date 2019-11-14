@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As a user i should be able to search for given word in wikipedia and same time i can view result in different language" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-11-14T10:33:50" hostname="Jyothis-Air" time="20.749">
+  <properties/>
+  <testcase name="Search for given word in Wikipedia" classname="As a user i should be able to search for given word in wikipedia and same time i can view result in different language" time="12.71"/>
+  <testcase name="Search for given word in Wikipedia" classname="As a user i should be able to search for given word in wikipedia and same time i can view result in different language" time="7.845"/>
+  <system-out><![CDATA[10:33:50.947 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Search for given word in Wikipedia
+-------------------------------------------------------------------(as-a-user-i-should-be-able-to-search-for-given-word-in-wikipedia-and-same-time-i-can-view-result-in-different-language;search-for-given-word-in-wikipedia)
+10:33:50.954 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Example: {Given_word=Apple, Other_language=Welsh (Cymraeg), Give_word_in_other_language=Afal}
+10:33:50.956 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given the user navigated to wikipedia
+10:33:51.011 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user browsed Wikipedia.org page
+10:33:52.315 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+10:33:52.315 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:33:58.350 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:33:58.363 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:33:58.376 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When the user search for a 'Apple' in english
+10:33:58.682 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validated default language as EN} 
+10:33:59.040 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:33:59.050 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user search for a given word = Apple 
+10:34:01.269 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:01.279 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:01.290 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then the user validate 'Apple' in search result
+10:34:01.299 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validated first heading has Apple 
+10:34:01.725 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:01.746 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:01.757 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP And the user change to 'Welsh (Cymraeg)' and validate 'Afal'
+10:34:02.137 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user change the language to Welsh (Cymraeg) 
+10:34:03.255 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:03.268 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validated first heading has Afal 
+10:34:03.639 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:03.650 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:03.850 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Example: {Given_word=Rose, Other_language=Welsh (Cymraeg), Give_word_in_other_language=Rhosyn}
+10:34:03.852 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given the user navigated to wikipedia
+10:34:03.890 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user browsed Wikipedia.org page
+10:34:04.318 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+10:34:04.326 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+10:34:07.813 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:07.822 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:07.829 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When the user search for a 'Rose' in english
+10:34:07.839 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validated default language as EN} 
+10:34:08.171 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:08.180 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user search for a given word = Rose 
+10:34:09.794 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:09.802 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:09.812 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then the user validate 'Rose' in search result
+10:34:09.821 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validated first heading has Rose 
+10:34:10.205 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:10.213 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:10.220 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP And the user change to 'Welsh (Cymraeg)' and validate 'Rhosyn'
+10:34:10.229 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user change the language to Welsh (Cymraeg) 
+10:34:11.297 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:11.307 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validated first heading has Rhosyn 
+10:34:11.682 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+10:34:11.689 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+]]></system-out>
+  <system-err><![CDATA[Nov 14, 2019 10:33:51 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 41827
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Nov 14, 2019 10:33:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 14, 2019 10:34:03 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 2325
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Nov 14, 2019 10:34:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
