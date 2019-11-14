@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="TEST.net.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Jyothis-Air" time="0.0">
   <properties/>
-  <system-out><![CDATA[10:33:06.337 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[96m
+  <system-out><![CDATA[18:17:40.762 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[96m
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -18,10 +18,10 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 ?[0m
-10:33:06.351 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: As a user i should be able to make API call for pets status from petsstore
-10:33:06.407 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: As a user i should be able to search for given word in wikipedia and same time i can view result in different language
-10:33:50.931 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:33:50.937 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
+18:17:40.776 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: As a user i should be able to make API call for pets status from petsstore
+18:17:40.821 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - Test Suite Started: As a user i should be able to search for given word in wikipedia and same time i can view result in different language
+18:17:46.698 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:46.704 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -31,8 +31,8 @@
 
 TEST PASSED: User calls webservice to find pet status
 ----------------------------------------------------------------------------?[0m
-10:34:03.658 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:34:03.840 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
+18:18:03.471 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:18:03.592 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -42,8 +42,8 @@ TEST PASSED: User calls webservice to find pet status
 
 TEST PASSED: Search for given word in Wikipedia
 ----------------------------------------------------------------------------?[0m
-10:34:11.696 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:34:11.801 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
+18:18:12.213 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:18:12.318 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -91,10 +91,10 @@ Feature: As a user i should be able to search for given word in wikipedia and sa
 
 3 Scenarios (?[32m3 passed?[0m)
 11 Steps (?[32m11 passed?[0m)
-1m5.699s
+0m31.753s
 
-10:34:12.277 [pool-2-thread-2] INFO  n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: src/test/resources/features
-10:34:12.277 [pool-2-thread-1] INFO  n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: src/test/resources/features
+18:18:12.620 [pool-2-thread-1] INFO  n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: src/test/resources/features
+18:18:12.621 [pool-2-thread-2] INFO  n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: src/test/resources/features
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

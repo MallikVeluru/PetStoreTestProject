@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="As a user i should be able to make API call for pets status from petsstore" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-14T10:33:06" hostname="Jyothis-Air" time="44.293">
+<testsuite name="As a user i should be able to make API call for pets status from petsstore" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-14T18:17:40" hostname="Jyothis-Air" time="5.711">
   <properties/>
-  <testcase name="User calls webservice to find pet status" classname="As a user i should be able to make API call for pets status from petsstore" time="44.293"/>
-  <system-out><![CDATA[10:33:06.672 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - 
+  <testcase name="User calls webservice to find pet status" classname="As a user i should be able to make API call for pets status from petsstore" time="5.711"/>
+  <system-out><![CDATA[18:17:41.019 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -12,21 +12,21 @@
 
 TEST STARTED: User calls webservice to find pet status
 -------------------------------------------------------------------(as-a-user-i-should-be-able-to-make-api-call-for-pets-status-from-petsstore;user-calls-webservice-to-find-pet-status)
-10:33:06.701 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Example: {Number=3059, Pets_status=available, Pet_name=doggie}
-10:33:06.705 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given the user checks for pet store
-10:33:07.627 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user checking service is running
-10:33:10.962 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:33:10.969 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:33:10.971 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When the user request to find the 'available'
-10:33:10.978 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the User request for pet status = available
-10:33:13.332 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:33:13.334 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:33:13.335 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then the user validate '3059' of 'available' and 'doggie'
-10:33:13.339 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the User get doggie count from response
-10:33:50.920 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:33:50.922 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validate pet number as 3217
-10:33:50.927 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
-10:33:50.929 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:41.049 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Example: {Number=3059, Pets_status=available, Pet_name=doggie}
+18:17:41.053 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Given the user checks for pet store
+18:17:41.599 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user checking service is running
+18:17:43.935 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:43.942 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:43.944 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP When the user request to find the 'available'
+18:17:43.950 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the User request for pet status = available
+18:17:44.849 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:44.851 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:44.852 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP Then the user validate '3059' of 'available' and 'doggie'
+18:17:44.856 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the User get doggie count from response
+18:17:46.687 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:46.689 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - STARTING STEP the user validate pet number as 3371
+18:17:46.694 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
+18:17:46.695 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - FINISHING STEP
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
